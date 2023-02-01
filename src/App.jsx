@@ -6,11 +6,18 @@ import { useState } from 'react';
 import './App.css';
 
 // Components
+import Nav from './components/Nav';
 
 
 function App() {
   return (
     <>
+    <Nav />
+    <main>
+      <Routes>
+        <Route path='/' />
+      </Routes>
+    </main>
     </>
   );
 }
