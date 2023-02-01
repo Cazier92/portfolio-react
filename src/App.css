@@ -45,3 +45,7 @@
   font-family: 'nunito-sans-semibold';
   src: local('NunitoSans-SemiBold'), url('./fonts/NunitoSans-SemiBold.ttf') format('truetype');
 }
+
+main {
+  height: 100%;
+}
