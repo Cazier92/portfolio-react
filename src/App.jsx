@@ -4,9 +4,12 @@ import { useState } from 'react';
 
 // Styling
 import './App.css';
+import './fonts/NunitoSans-Regular.ttf'
+import './fonts/NunitoSans-SemiBold.ttf'
 
 // Components
 import Nav from './components/Nav';
+import Landing from './pages/Landing';
 
 
 function App() {
@@ -15,7 +18,7 @@ function App() {
     <Nav />
     <main>
       <Routes>
-        <Route path='/' />
+        <Route path='/' element={<Landing />}/>
       </Routes>
     </main>
     </>

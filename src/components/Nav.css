@@ -1,18 +1,27 @@
 .nav-bar {
-  background-color: #051923;
-  color: white;
+  background-color: #00A6FB;
   margin: 0;
   height: 10vmin;
   padding: 0;
   display: flex;
+  align-items: center;
   align-content: center;
-  justify-content: center;
+  text-align: center;
+  justify-content: space-around;
 }
 
-h1 {
-  margin: 0;
+.link {
+  text-decoration: none;
+  font-family: nunito-sans-semibold;
+  color: #DFD5A5;
+  font-size: 4vmin;
 }
 
 .logo {
-  height: 100%;
+  height: 10vmin;
+}
+
+p {
+  color: #DFD5A5;
+  font-size: 6vmin;
 }
