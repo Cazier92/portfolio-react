@@ -14,6 +14,7 @@ import Bio from './pages/Bio';
 import Contact from './pages/Contact';
 import Projects from './pages/Projects';
 import Resume from './pages/Resume';
+import ProjectDetails from './pages/ProjectDetails';
 
 
 
@@ -27,6 +28,7 @@ function App() {
         <Route path='/bio' element={<Bio />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/projects' element={<Projects />} />
+        <Route path='/projects/:idx' element={<ProjectDetails />} />
         <Route path='/resume' element={<Resume />} />
       </Routes>
     </main>

@@ -7,7 +7,7 @@ const Nav = (props) => {
     <header className='nav-bar'>
       <NavLink to='/bio' className='link'>About</NavLink>
       <p>|</p>
-      <NavLink to='/projecs' className='link'>Projects</NavLink>
+      <NavLink to='/projects' className='link'>Projects</NavLink>
       <NavLink to='/' id='logo'>
         <img src={Logo} alt="" className='logo'/>
       </NavLink>
@@ -15,7 +15,7 @@ const Nav = (props) => {
       <p>|</p>
       <NavLink to='/resume' className='link'>Resume</NavLink>
     </header>
-   );
+  );
 }
- 
+
 export default Nav;

@@ -1,0 +1,16 @@
+.bio-body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bio-img {
+  width: 60%;
+}
+
+h1 {
+  font-family: nunito-sans-semibold;
+  color: #DFD5A5;
+}
