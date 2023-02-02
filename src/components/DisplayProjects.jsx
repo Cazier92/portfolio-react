@@ -21,7 +21,9 @@ const DisplayProjects = (props) => {
             className="project-name">
               <h1>{project.name}</h1>
             </Link>
-            <Link to={`/projects/details`}>
+            <Link 
+              onClick={() => handleSetProjectPage(idx)}
+              to={`/projects/details`}>
               <img src={project.image} alt=""  className="project-pre-image"/>
             </Link>
             <p className="project-summary">{project.summary}</p>

@@ -1,8 +1,33 @@
+.project-details-div {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
+
 .project-image {
   max-width: 50%;
+  align-self: center;
 }
 
 
 .project-info {
   color: white;
+  width: 80%;
+  text-align: justify;
+  align-self: center;
+}
+
+@media (min-width: 720px) {
+  .project-details-div {
+    text-align: left;
+    margin-left: 5vmin;
+  }
+  .project-image {
+    align-self: flex-start;
+  }
+  .project-info {
+    align-self: flex-start;
+  }
 }
