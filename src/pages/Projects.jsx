@@ -5,7 +5,7 @@ const Projects = (props) => {
 
   return ( 
     <>
-    <DisplayProjects projectData={projectData} />
+    <DisplayProjects projectData={projectData} setProjectPage={props.setProjectPage}/>
     </>
   );
 }

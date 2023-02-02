@@ -16,9 +16,14 @@ import Projects from './pages/Projects';
 import Resume from './pages/Resume';
 import ProjectDetails from './pages/ProjectDetails';
 
+// Data
+import { projectData } from './data/projectData';
+
 
 
 function App() {
+  const [projectPage, setProjectPage] = useState()
+
   return (
     <>
     <Nav />
@@ -27,8 +32,8 @@ function App() {
         <Route path='/' element={<Landing />}/>
         <Route path='/bio' element={<Bio />} />
         <Route path='/contact' element={<Contact />} />
-        <Route path='/projects' element={<Projects />} />
-        <Route path='/projects/:idx' element={<ProjectDetails />} />
+        <Route path='/projects' element={<Projects setProjectPage={setProjectPage} />} />
+        <Route path='/projects/details' element={<ProjectDetails projectPage={projectPage} />} />
         <Route path='/resume' element={<Resume />} />
       </Routes>
     </main>
