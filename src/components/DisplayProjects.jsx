@@ -12,17 +12,22 @@ const DisplayProjects = (props) => {
 
   return ( 
     <>
-      {props.projectData.map((project, idx) => (
-        <>
-        <Link onClick={() => handleSetProjectPage(idx)} to={`/projects/details`}>
-          <h1>{project.name}</h1>
-        </Link>
-        <Link to={`/projects/details`}>
-          <img src={project.image} alt=""  className="project-image"/>
-        </Link>
-        <p>{project.info}</p>
-        </>
-      ))}
+      <div className="display-project-div">
+        {props.projectData.map((project, idx) => (
+          <>
+            <Link 
+            onClick={() => handleSetProjectPage(idx)} 
+            to={`/projects/details`}
+            className="project-name">
+              <h1>{project.name}</h1>
+            </Link>
+            <Link to={`/projects/details`}>
+              <img src={project.image} alt=""  className="project-pre-image"/>
+            </Link>
+            <p className="project-summary">{project.summary}</p>
+          </>
+        ))}
+      </div>
     </>
   );
 }

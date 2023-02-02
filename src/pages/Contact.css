@@ -1,0 +1,14 @@
+p {
+  color: white;
+}
+
+.contact-div {
+  display: flex;
+  flex-direction: column;
+  margin: 0 5vmin;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}

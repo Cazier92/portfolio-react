@@ -1,0 +1,33 @@
+.display-project-div {
+  margin: 0 5vmin;
+  padding: 2vmin 0 5vmin 0;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+}
+
+.project-name {
+  text-decoration: none;
+}
+
+.project-pre-image {
+  height: 50vmin;
+
+}
+
+.project-summary {
+  color: white;
+}
+
+@media (min-width: 720px) {
+  .display-project-div {
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .project-pre-image {
+    height: 70vmin;
+  }
+}
