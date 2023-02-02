@@ -6,6 +6,14 @@
   justify-content: center;
 }
 
+.bio-img-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 .bio-img {
   width: 60%;
 }
@@ -13,4 +21,28 @@
 h1 {
   font-family: nunito-sans-semibold;
   color: #DFD5A5;
+}
+
+.bio-text {
+  color: white;
+  width: 75%;
+  text-align: justify;
+}
+
+@media (min-width: 720px) {
+  .bio-img {
+    width: 35%;
+  }
+
+  .bio-img-text {
+    flex-direction: row;
+    align-self: flex-start;
+    align-items: flex-start;
+    gap: 5vmin;
+  }
+
+  .bio-text {
+    width: 50%;
+    text-align: justify;
+  }
 }

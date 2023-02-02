@@ -3,6 +3,8 @@ import mazeImg from '../assets/maze-raider.png'
 
 import { projectData } from "../data/projectData";
 
+import './DisplayProjects.css'
+
 const DisplayProjects = (props) => {
   const handleSetProjectPage = (idx) => {
     props.setProjectPage(projectData[idx])
