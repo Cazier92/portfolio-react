@@ -1,9 +1,9 @@
 import { projectData } from "../data/projectData";
 
-const ProjectDetails = (props) => {
+const ProjectDetails = ({projectPage}) => {
   return ( 
     <>
-    <h1>Project Details</h1>
+    <h1>{projectPage.name}</h1>
     </>
   );
 }
