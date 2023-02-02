@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import mazeImg from '../assets/maze-raider.png'
+
 
 import { projectData } from "../data/projectData";
 

@@ -1,4 +1,5 @@
 import BioImage from '../assets/CE13BA46-71B4-4CDE-841F-EA906B9B4B13_1_105_c.jpeg'
+
 import './Bio.css'
 
 const Bio = (props) => {
@@ -14,7 +15,7 @@ const Bio = (props) => {
         </div>
       </div>
     </>
-   );
+  );
 }
- 
+
 export default Bio;

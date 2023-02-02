@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 
-import { projectData } from "../data/projectData";
 
 import './ProjectDetails.css'
 

@@ -16,8 +16,8 @@ import Projects from './pages/Projects';
 import Resume from './pages/Resume';
 import ProjectDetails from './pages/ProjectDetails';
 
-// Data
-import { projectData } from './data/projectData';
+
+
 
 
 

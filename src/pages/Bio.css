@@ -15,7 +15,7 @@
 }
 
 .bio-img {
-  width: 60%;
+  width: 50%;
 }
 
 h1 {
@@ -29,9 +29,11 @@ h1 {
   text-align: justify;
 }
 
+
+
 @media (min-width: 720px) {
   .bio-img {
-    width: 35%;
+    width: 40%;
   }
 
   .bio-img-text {
