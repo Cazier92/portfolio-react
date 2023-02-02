@@ -23,6 +23,7 @@ h1 {
   color: #DFD5A5;
 }
 
+
 .bio-text {
   color: white;
   width: 75%;
@@ -33,7 +34,7 @@ h1 {
 
 @media (min-width: 720px) {
   .bio-img {
-    width: 40%;
+    width: 30%;
   }
 
   .bio-img-text {
@@ -41,6 +42,7 @@ h1 {
     align-self: flex-start;
     align-items: flex-start;
     gap: 5vmin;
+    margin-left: 8vmin;
   }
 
   .bio-text {
