@@ -1,6 +1,8 @@
 import Logo from '../assets/Bryce-fullname.svg'
 import './Landing.css'
 
+import { useEffect, useState } from 'react';
+
 import Bio from './Bio';
 import Projects from './Projects';
 import Contact from './Contact'
@@ -8,34 +10,56 @@ import Resume from './Resume'
 import LandingNav from '../components/LandingNav'
 
 const Landing = ({projectPage, setProjectPage}) => {
-  const bio = document.getElementById('bio')
-  const projects = document.getElementById('projects')
-  const contact = document.getElementById('contact')
-  const resume = document.getElementById('resume')
+  const [bio, setBio] = useState()
+  const [projects, setProjects] = useState()
+  const [contact, setContact] = useState()
+  const [resume, setResume] = useState()
+  const [logo, setLogo] = useState()
+
+
+  useEffect(() => {
+    // const bio = document.getElementById('bio')
+    // const projects = document.getElementById('projects')
+    // const contact = document.getElementById('contact')
+    // const resume = document.getElementById('resume')
+    setBio(document.getElementById('bio'))
+    setProjects(document.getElementById('projects'))
+    setContact(document.getElementById('contact'))
+    setResume(document.getElementById('resume'))
+    setLogo(document.getElementById('logo'))
+  }, [])
 
   function bioScroll() {
+    console.log(bio)
     bio?.scrollIntoView(false)
   }
 
   
   function projectsScroll() {
+    console.log('Working')
     projects?.scrollIntoView(true)
   }
 
   function contactScroll() {
+    console.log('Working')
     contact?.scrollIntoView(true)
   }
 
   function resumeScroll() {
+    console.log('Working')
     resume?.scrollIntoView(true)
+  }
+
+  function logoScroll() {
+    logo?.scrollIntoView(true)
   }
 
 
 
   return ( 
     <>
-    <LandingNav bioScroll={bioScroll} projectsScroll={projectsScroll} contactScroll={contactScroll} resumeScroll={resumeScroll}/>
-    <div className='landing-body'>
+    <LandingNav bioScroll={bioScroll} projectsScroll={projectsScroll} contactScroll={contactScroll} resumeScroll={resumeScroll} logoScroll={logoScroll}/>
+    <div className='landing-body' id='logo'>
       <img src={Logo} alt="" />
     <div className='bio-div' id='bio'>
       <Bio />

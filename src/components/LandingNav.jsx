@@ -8,9 +8,8 @@ const Nav = (props) => {
       <h1 className='link' onClick={() => props.bioScroll()}>About</h1>
       <p className='division'>|</p>
       <h1 className='link' onClick={() => props.projectsScroll()}>Projects</h1>
-      <NavLink to='/' id='logo'>
-        <img src={Logo} alt="" className='logo'/>
-      </NavLink>
+      <img src={Logo} alt="" className='logo' id='logo-icon' onClick={() => props.logoScroll()}/>
+
       <h1 className='link' onClick={() => props.contactScroll()}>Contact</h1>
       <p className='division'>|</p>
       <h1 className='link' onClick={() => props.resumeScroll()}>Resume</h1>

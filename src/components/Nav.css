@@ -23,6 +23,7 @@
 
 .logo {
   height: 10vmin;
+  cursor: pointer;
 }
 
 .division {
