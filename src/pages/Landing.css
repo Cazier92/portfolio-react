@@ -5,6 +5,7 @@ img {
 .landing-body {
   height: 100%;
   margin-top: 7vmin;
+  padding-top: 2vmin;
   padding-bottom: 70vmin;
   display: flex;
   flex-direction: column;

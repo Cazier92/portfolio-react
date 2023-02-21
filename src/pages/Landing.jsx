@@ -31,7 +31,7 @@ const Landing = ({projectPage, setProjectPage}) => {
 
   function bioScroll() {
     console.log(bio)
-    bio?.scrollIntoView(false)
+    bio?.scrollIntoView(true)
   }
 
   
