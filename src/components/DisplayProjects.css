@@ -13,7 +13,7 @@
 }
 
 .project-pre-image {
-  height: 50vmin;
+  max-height: 50vmin;
 
 }
 
@@ -28,6 +28,6 @@
   }
 
   .project-pre-image {
-    height: 70vmin;
+    max-height: 50vmin;
   }
 }

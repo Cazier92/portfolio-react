@@ -8,7 +8,7 @@ import './fonts/NunitoSans-Regular.ttf'
 import './fonts/NunitoSans-SemiBold.ttf'
 
 // Components
-import Nav from './components/Nav';
+
 import Landing from './pages/Landing';
 import Bio from './pages/Bio';
 import Contact from './pages/Contact';
