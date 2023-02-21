@@ -31,6 +31,24 @@ h1 {
   text-align: justify;
 }
 
+.skills-div {
+  text-align: center;
+  margin-top: 20vmin;
+}
+
+.icons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 5vmin 20vmin 20vmin 20vmin;
+}
+
+.icons > img {
+  max-width: 8vmin;
+}
+
 
 
 @media (min-width: 720px) {
