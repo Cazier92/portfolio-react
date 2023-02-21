@@ -9,9 +9,11 @@ const ProjectDetails = ({projectPage}) => {
       <Link to='/projects'>Return to Projects</Link>
     )
   }
+
+
   return ( 
     <>
-    <div className="project-details-div">
+    <div className="project-details-div" id='details'>
       <h1 className="project-name">{projectPage.name}</h1>
       <a target='_blank' rel='noopener noreferrer' href={projectPage.deploy}>Go to deployed app</a>
       <br />

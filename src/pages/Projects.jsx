@@ -7,7 +7,10 @@ const Projects = (props) => {
 
   return ( 
     <>
+    <div className="display-projects-div">
       <DisplayProjects projectData={projectData} setProjectPage={props.setProjectPage}/>
+
+    </div>
     </>
   );
 }

@@ -8,6 +8,9 @@
   align-content: center;
   text-align: center;
   justify-content: space-evenly;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .link {
@@ -15,6 +18,7 @@
   font-family: nunito-sans-semibold;
   color: #DFD5A5;
   font-size: 4vmin;
+  cursor: pointer;
 }
 
 .logo {

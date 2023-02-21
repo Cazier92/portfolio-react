@@ -26,14 +26,15 @@ function App() {
 
   return (
     <>
-    <Nav />
+    {/* <Nav /> */}
     <main>
       <Routes>
-        <Route path='/' element={<Landing />}/>
+        <Route path='/' element={<Landing setProjectPage={setProjectPage} projectPage={projectPage}/>}/>
         <Route path='/bio' element={<Bio />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/projects' element={<Projects setProjectPage={setProjectPage} />} />
-        <Route path='/projects/details' element={<ProjectDetails projectPage={projectPage} />} />
+        <Route path='/projects/details' 
+        element={<ProjectDetails projectPage={projectPage} />} />
         <Route path='/resume' element={<Resume />} />
       </Routes>
     </main>

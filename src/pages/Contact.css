@@ -5,7 +5,9 @@ p {
 .contact-div {
   display: flex;
   flex-direction: column;
-  margin: 0 5vmin;
+  margin: 7vmin 5vmin;
+  padding-top: 2vmin;
+  align-self: flex-start;
 }
 
 a {

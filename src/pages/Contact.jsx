@@ -1,6 +1,6 @@
 import './Contact.css'
 
-const Contact = (props) => {
+const Contact = () => {
   return ( 
     <>
     <div className='contact-div'>

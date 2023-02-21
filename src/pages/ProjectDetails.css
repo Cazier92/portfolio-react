@@ -1,4 +1,6 @@
 .project-details-div {
+  margin-top: 7vmin;
+  padding-top: 7vmin;
   display: flex;
   flex-direction: column;
   align-content: center;

@@ -1,5 +1,6 @@
 import mazeImg from '../assets/maze-raider.png'
 import dogPark from '../assets/dog-park.png'
+import psynch from '../assets/psynch.png'
 
 const projectData = [
   {
@@ -18,6 +19,14 @@ const projectData = [
     deploy: 'https://the-dog-park-network.fly.dev/',
     summary: 'A blogging and networking app for dog owners!'
   },
+  {
+    name: 'PSYNCH',
+    image: psynch,
+    info: "PSYNCH is an app focused on altering the scene of social media, ultimately changing how we connect as a society. Track emotions through posts to your friends and/or the world. Let your friends know exactly how you feel at any time with no shame or worry. Keep tabs on how you feel throughout your life's journey. Get support when you need it. With PSYNCH, you will finally experience meaningful connections and emotionally enriching conversations through social networking. Share your feelings and get to know those around you on a deeper level.",
+    gitHub: 'https://github.com/Cazier92/PSYNCH-front-end',
+    deploy: 'https://psynch.netlify.app/',
+    summary: 'A social networking app to communicate and keep track of your friends and your own emotions!'
+  }
 ]
 
 export {
