@@ -12,5 +12,18 @@ p {
 
 a {
   text-decoration: none;
-  color: white;
+  color: black;
+}
+
+p {
+  color: black;
+}
+
+@media (min-width: 720px) {
+  a {
+    color: white;
+  }
+  p {
+    color: white;
+  }
 }

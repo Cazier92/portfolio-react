@@ -15,6 +15,7 @@ const DisplayProjects = (props) => {
       <div className="display-project-div">
         {props.projectData.map((project, idx) => (
           <>
+          <div className="single-project">
             <Link 
             onClick={() => handleSetProjectPage(idx)} 
             to={`/projects/details`}
@@ -27,6 +28,7 @@ const DisplayProjects = (props) => {
               <img src={project.image} alt=""  className="project-pre-image"/>
             </Link>
             <p className="project-summary">{project.summary}</p>
+          </div>
           </>
         ))}
       </div>

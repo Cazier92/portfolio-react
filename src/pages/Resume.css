@@ -1,5 +1,5 @@
 .resume-div {
-  margin: 5vmin 0;
+  margin: 0 0 30vmin 0;
   padding: 5vmin;
   align-self: flex-start;
 }
@@ -8,3 +8,12 @@ h1 {
   margin: 0;
 }
 
+.download {
+  color: black
+}
+
+@media (min-width: 720px) {
+  .download {
+    color: white;
+  }
+}

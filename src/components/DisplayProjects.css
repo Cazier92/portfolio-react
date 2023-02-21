@@ -8,6 +8,10 @@
   text-align: center;
 }
 
+.single-project {
+  margin-bottom: 5vmin;
+}
+
 .project-name {
   text-decoration: none;
 }
