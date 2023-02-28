@@ -18,10 +18,6 @@ const Landing = ({projectPage, setProjectPage}) => {
 
 
   useEffect(() => {
-    // const bio = document.getElementById('bio')
-    // const projects = document.getElementById('projects')
-    // const contact = document.getElementById('contact')
-    // const resume = document.getElementById('resume')
     setBio(document.getElementById('bio'))
     setProjects(document.getElementById('projects'))
     setContact(document.getElementById('contact'))

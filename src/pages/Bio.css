@@ -34,6 +34,9 @@ h1 {
 .skills-div {
   text-align: center;
   margin-top: 20vmin;
+  /* background-color: white; */
+  width: 100%;
+  
 }
 
 .icons {
@@ -43,10 +46,14 @@ h1 {
   justify-content: center;
   text-align: center;
   margin: 5vmin 20vmin 20vmin 20vmin;
+  background-color: rgba(255, 255, 255, .9);
+  padding: 5vmin;
+  border-radius: 10px;
 }
 
 .icons > img {
   max-width: 8vmin;
+  padding: 2vmin;
 }
 
 
