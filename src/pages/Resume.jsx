@@ -5,7 +5,7 @@ import './Resume.css'
 const Resume = (props) => {
   return ( 
     <>
-    <div className='resume-div'>
+    <div className='resume-info'>
       <h1>Resume</h1>
       <a href={ResumeDoc} download className='download'>Download resume</a>
     </div>

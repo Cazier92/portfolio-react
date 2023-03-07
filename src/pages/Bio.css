@@ -1,10 +1,26 @@
 .bio-body {
   height: 100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin-top: 7vmin;
+}
+
+.bio-info {
+  text-align: center;
+  /* background-color: blue; */
+  width: 93%;
+  padding: 5vmin 0;
+  align-self: center;
+  justify-self: center;
+  border-radius: 10px;
+  /* margin: 5vmin; */
+}
+
+.bio-info:hover {
+  background-color: rgba(0, 0, 0, .5);
 }
 
 .bio-img-text {
@@ -17,6 +33,8 @@
 
 .bio-img {
   width: 50%;
+  border-radius: 10px;
+  margin-top: 3vmin;
 }
 
 h1 {
@@ -56,7 +74,10 @@ h1 {
   padding: 2vmin;
 }
 
-
+.icons > img:hover {
+  background-color: rgba(0, 0, 0, .5);
+  border-radius: 5px;
+}
 
 @media (min-width: 720px) {
   .bio-img {
@@ -67,7 +88,7 @@ h1 {
     flex-direction: row;
     align-self: flex-start;
     align-items: flex-start;
-    gap: 5vmin;
+    gap: 15vmin;
     margin-left: 8vmin;
   }
 

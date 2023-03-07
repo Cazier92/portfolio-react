@@ -1,3 +1,5 @@
 .display-projects-div {
   margin-top: 7vmin;
+  display: flex;
+  flex-direction: column;
 }

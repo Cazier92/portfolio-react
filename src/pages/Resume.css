@@ -1,7 +1,14 @@
-.resume-div {
-  margin: 0 0 30vmin 0;
-  padding: 5vmin;
+.resume-info {
+  margin: 0 0 30vmin 8vmin;
+  padding: 2vmin 3vmin;
   align-self: flex-start;
+  width: 50%;
+  padding: 2vmin;
+  border-radius: 10px;
+}
+
+.resume-info:hover {
+  background-color: rgba(0, 0, 0, .5);
 }
 
 h1 {

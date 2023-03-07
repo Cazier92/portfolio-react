@@ -2,23 +2,55 @@
   margin: 0 5vmin;
   padding: 2vmin 0 5vmin 0;
   display: flex;
+  width: 100%;
   flex-direction: column;
-  justify-items: center;
-  align-items: center;
-  text-align: center;
+  /* justify-items: flex-start; */
+  align-items: flex-start;
+  text-align: left;
 }
 
 .single-project {
   margin-bottom: 5vmin;
+  display: flex;
+  width: 88%;
+  padding: 5vmin;
+  border-radius: 10px;
+}
+
+.single-project:hover {
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.project-name-img {
+  width: 35%;
 }
 
 .project-name {
   text-decoration: none;
+  padding-bottom: 2vmin;
 }
 
 .project-pre-image {
   max-height: 50vmin;
+  max-width: 45vmin;
+}
 
+.project-details {
+  display: inline;
+  width: 50%;
+  align-items: center;
+  /* justify-content: center; */
+  align-content: center;
+  margin-left: 5vmin;
+  margin-top: 5vmin;
+}
+
+.project-details > a {
+  padding: 1vmin;
+  border-radius: 5px;
+}
+.project-details > a:hover {
+  background-color: rgba(155, 155, 155, .5);
 }
 
 .project-summary {

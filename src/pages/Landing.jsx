@@ -56,7 +56,7 @@ const Landing = ({projectPage, setProjectPage}) => {
     <>
     <LandingNav bioScroll={bioScroll} projectsScroll={projectsScroll} contactScroll={contactScroll} resumeScroll={resumeScroll} logoScroll={logoScroll}/>
     <div className='landing-body' id='logo'>
-      <img src={Logo} alt="" />
+      <img src={Logo} alt="" className='landing-logo'/>
     <div className='bio-div' id='bio'>
       <Bio />
     </div>

@@ -1,9 +1,11 @@
-img {
+.landing-logo {
   max-width: 90%;
 }
 
 .landing-body {
   height: 100%;
+  width: 100%;
+  min-width: 100vw;
   margin-top: 7vmin;
   padding-top: 2vmin;
   padding-bottom: 70vmin;
@@ -17,3 +19,20 @@ img {
   padding-top: 7vmin;
 }
 
+.landing-logo:hover {
+  background-color: rgba(0, 0, 0, .5);
+  border-radius: 10px;
+}
+
+.projects-div {
+  width: 100%;
+  min-width: 100vw;
+}
+
+.contact-div {
+  width: 100%;
+}
+
+.resume-div {
+  width: 100%;
+}

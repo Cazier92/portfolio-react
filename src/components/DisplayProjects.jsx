@@ -16,18 +16,17 @@ const DisplayProjects = (props) => {
         {props.projectData.map((project, idx) => (
           <>
           <div className="single-project">
-            <Link 
-            onClick={() => handleSetProjectPage(idx)} 
-            to={`/projects/details`}
-            className="project-name">
-              <h1>{project.name}</h1>
-            </Link>
-            <Link 
-              onClick={() => handleSetProjectPage(idx)}
-              to={`/projects/details`}>
-              <img src={project.image} alt=""  className="project-pre-image"/>
-            </Link>
-            <p className="project-summary">{project.summary}</p>
+            <div className="project-name-img">
+                <h1 className="project-name">{project.name}</h1>
+                <img src={project.image} alt=""  className="project-pre-image"/>
+            </div>
+            <div className="project-details">
+              <p className="project-summary">{project.info}</p>
+              <a target='_blank' rel='noopener noreferrer' href={project.deploy} className='deploy'>Go to Deployed App</a>
+              <br />
+              <br />
+              <a target='_blank' rel='noopener noreferrer' href={project.gitHub} className='github'>GitHub Documentation</a>
+            </div>
           </div>
           </>
         ))}

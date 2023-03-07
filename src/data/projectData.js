@@ -1,6 +1,7 @@
 import mazeImg from '../assets/maze-raider.png'
 import dogPark from '../assets/dog-park.png'
 import psynch from '../assets/psynch.png'
+import colorizz from '../assets/colorizz.png'
 
 const projectData = [
   {
@@ -10,6 +11,14 @@ const projectData = [
     gitHub: 'https://github.com/Cazier92/PSYNCH-front-end',
     deploy: 'https://psynch.netlify.app/',
     summary: 'A social networking app to communicate and keep track of your friends and your own emotions!'
+  },
+  {
+    name: 'Colorizz',
+    image: colorizz,
+    info: "Colorizz is a simple app catering to the watercolor community, which lets you keep track of paints, find new ones you'd like to check out, and create palettes to remember for your next painting!",
+    gitHub: 'https://github.com/Cazier92/colorizz-frontend',
+    deploy: 'https://colorizz.netlify.app/',
+    summary: 'A simple app to help watercolor artists keep track of and manage the paints and palettes they are using.'
   },
   {
     name: 'The Dog Park Network',

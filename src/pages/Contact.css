@@ -2,17 +2,30 @@ p {
   color: white;
 }
 
-.contact-div {
+.contact-info {
   display: flex;
   flex-direction: column;
-  margin: 7vmin 5vmin;
-  padding-top: 2vmin;
+  margin: 0 8vmin;
+  /* padding-top: 2vmin; */
   align-self: flex-start;
+  width: 50%;
+  padding: 3vmin;
+  border-radius: 10px;
+}
+
+.contact-info:hover {
+  background-color: rgba(0, 0, 0, .5);
 }
 
 a {
   text-decoration: none;
   color: black;
+  padding: 1vmin;
+  border-radius: 5px;
+}
+
+a:hover {
+  background-color: rgba(155, 155, 155, .5);
 }
 
 p {
