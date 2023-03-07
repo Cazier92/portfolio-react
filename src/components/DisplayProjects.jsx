@@ -1,14 +1,7 @@
-import { Link } from "react-router-dom";
-
-
-import { projectData } from "../data/projectData";
 
 import './DisplayProjects.css'
 
 const DisplayProjects = (props) => {
-  const handleSetProjectPage = (idx) => {
-    props.setProjectPage(projectData[idx])
-  }
 
   return ( 
     <>
