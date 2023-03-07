@@ -27,27 +27,27 @@ const Landing = ({projectPage, setProjectPage}) => {
 
   function bioScroll() {
     console.log(bio)
-    bio?.scrollIntoView(true)
+    bio?.scrollIntoView({behavior: 'smooth', block: 'start', inline: 'nearest'})
   }
 
   
   function projectsScroll() {
     console.log('Working')
-    projects?.scrollIntoView(true)
+    projects?.scrollIntoView({behavior: 'smooth', block: 'start', inline: 'nearest'})
   }
 
   function contactScroll() {
     console.log('Working')
-    contact?.scrollIntoView(true)
+    contact?.scrollIntoView({behavior: 'smooth', block: 'start', inline: 'nearest'})
   }
 
   function resumeScroll() {
     console.log('Working')
-    resume?.scrollIntoView(true)
+    resume?.scrollIntoView({behavior: 'smooth', block: 'start', inline: 'nearest'})
   }
 
   function logoScroll() {
-    logo?.scrollIntoView(true)
+    logo?.scrollIntoView({behavior: 'smooth', block: 'start', inline: 'nearest'})
   }
 
 
@@ -67,13 +67,16 @@ const Landing = ({projectPage, setProjectPage}) => {
       <Projects setProjectPage={setProjectPage}/>
     </div>
     <div id='contact'>
-      
+      <br />
+      <br />
     </div>
     <div className='contact-div'>
       <Contact />
     </div>
     
     <div className='resume-div' id='resume'>
+      <br />
+      <br />
       <Resume />
     </div>
     </div>
