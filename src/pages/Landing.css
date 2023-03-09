@@ -37,6 +37,10 @@
   width: 100%;
 }
 
+p {
+  font-size: 2vmin;
+}
+
 @media (max-width: 620px) {
   .projects-div {
     justify-content: center;

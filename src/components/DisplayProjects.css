@@ -15,6 +15,7 @@
   width: 88%;
   padding: 5vmin;
   border-radius: 10px;
+  background-color: rgba(0, 0, 0, .2);
 }
 
 .single-project:hover {
@@ -46,10 +47,12 @@
 }
 
 .project-details > a {
-  padding: 1vmin;
+  padding: .75vmin;
   border-radius: 5px;
+  background-color: rgba(155, 155, 155, .2);
 }
 .project-details > a:hover {
+  padding: 1vmin;
   background-color: rgba(155, 155, 155, .5);
 }
 

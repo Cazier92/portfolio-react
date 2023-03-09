@@ -16,7 +16,13 @@ h1 {
 }
 
 .download {
-  color: black
+  color: black;
+  background-color: rgba(155, 155, 155, .2);
+  padding: .75vmin;
+}
+
+.download:hover {
+  padding: 1vmin;
 }
 
 @media (min-width: 720px) {

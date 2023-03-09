@@ -20,12 +20,14 @@ p {
 a {
   text-decoration: none;
   color: black;
-  padding: 1vmin;
+  padding: .75vmin;
   border-radius: 5px;
+  background-color: rgba(155, 155, 155, .2);
 }
 
 a:hover {
   background-color: rgba(155, 155, 155, .5);
+  padding: 1vmin;
 }
 
 p {
