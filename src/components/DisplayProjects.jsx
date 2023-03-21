@@ -14,6 +14,7 @@ const DisplayProjects = (props) => {
                 <img src={project.image} alt=""  className="project-pre-image"/>
             </div>
             <div className="project-details">
+              {project.award ? (<p>{project.award}</p>) : (<></>)}
               <p className="project-summary">{project.info}</p>
               <a target='_blank' rel='noopener noreferrer' href={project.deploy} className='deploy'>Go to Deployed App</a>
               <br />

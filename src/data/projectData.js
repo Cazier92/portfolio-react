@@ -16,7 +16,8 @@ const projectData = [
   {
     name: 'Money Mania',
     image: moneyMania,
-    info: "Runner Up Winner of 2023 General Assembly Spring Hackathon! <br/> Money Mania is a trivia app created to bring gamification to financial literacy education. Designed to target high school aged kids core principles as they prepare for the world, it brings a fun spin to education for anyone looking to brush up their skills and knowledge of financial literacy!",
+    award: "Runner Up Winner of 2023 General Assembly Spring Hackathon!",
+    info: "Money Mania is a trivia app created to bring gamification to financial literacy education. Designed to target high school aged kids core principles as they prepare for the world, it brings a fun spin to education for anyone looking to brush up their skills and knowledge of financial literacy!",
     gitHub: 'https://github.com/Cazier92/Money-Mania-Frontend',
     deploy: 'https://moneymania.netlify.app/',
     summary: 'A trivia app to help students learn financial literacy!'
