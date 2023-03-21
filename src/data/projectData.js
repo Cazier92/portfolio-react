@@ -2,6 +2,7 @@ import mazeImg from '../assets/maze-raider.png'
 import dogPark from '../assets/dog-park.png'
 import psynch from '../assets/psynch.png'
 import colorizz from '../assets/colorizz.png'
+import moneyMania from '../assets/correctScreenshot.png'
 
 const projectData = [
   {
@@ -11,6 +12,14 @@ const projectData = [
     gitHub: 'https://github.com/Cazier92/PSYNCH-front-end',
     deploy: 'https://psynch.netlify.app/',
     summary: 'A social networking app to communicate and keep track of your friends and your own emotions!'
+  },
+  {
+    name: 'Money Mania',
+    image: moneyMania,
+    info: "Runner Up Winner of 2023 General Assembly Spring Hackathon! <br/> Money Mania is a trivia app created to bring gamification to financial literacy education. Designed to target high school aged kids core principles as they prepare for the world, it brings a fun spin to education for anyone looking to brush up their skills and knowledge of financial literacy!",
+    gitHub: 'https://github.com/Cazier92/Money-Mania-Frontend',
+    deploy: 'https://moneymania.netlify.app/',
+    summary: 'A trivia app to help students learn financial literacy!'
   },
   {
     name: 'Colorizz',
